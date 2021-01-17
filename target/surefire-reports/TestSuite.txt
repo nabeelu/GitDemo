@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.715 s <<< FAILURE! - in TestSuite
+Academy.validateTitle.titleValidation  Time elapsed: 5.29 s  <<< FAILURE!
+java.lang.AssertionError: expected [1234] but found [[[ChromeDriver: chrome on WINDOWS (27116e3f2b06a46d8bf315f6a49d110e)] -> xpath: //*[@class='text-center']/h2]]
+	at Academy.validateTitle.titleValidation(validateTitle.java:36)
+

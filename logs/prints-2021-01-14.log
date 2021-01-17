@@ -1,0 +1,7 @@
+15:02:32.159 [TestNG-tests-1] INFO  Academy.validateLogo - Logo successfully displayed
+15:05:21.442 [TestNG-tests-1] INFO  Academy.validateLogo - Driver is intialized
+15:05:21.444 [TestNG-tests-3] INFO  Academy.validateTitle - Driver is intialized
+15:05:21.457 [TestNG-tests-2] INFO  Academy.HomePage - Driver is intialized
+15:05:29.282 [TestNG-tests-2] INFO  Academy.HomePage - Navigated to home page
+15:05:30.373 [TestNG-tests-3] INFO  Academy.validateTitle - Navigated to home page
+15:05:30.680 [TestNG-tests-1] INFO  Academy.validateLogo - Navigated to home page
