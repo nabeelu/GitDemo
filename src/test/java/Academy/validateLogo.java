@@ -39,6 +39,11 @@ public class validateLogo extends base {
 		log.info("Logo successfully displayed");
 	}
 
+	@Test
+	public void gitbranchTest() {
+		
+		System.out.println("testing git branch");
+	}
 	@AfterTest
 	public void tearDown() {
 		driver.close();
