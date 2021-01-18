@@ -50,9 +50,8 @@ public class Listeners extends base implements ITestListener {
 			driver =(WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
 
 
-		} catch (Exception e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+		} catch(Exception e2) {
+			
 		}
 
 		

@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Nabeel\eclipse-workspace\E2EProject_nABEEL\testng.xml</span>
+                    <span>F:\GitDemo\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -118,12 +118,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="basePageNavigation(restricteduser@gmail.com, 345)">basePageNavigation(restricteduser@gmail.com, 345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="basePageNavigation(nonrestrictedusesr@gmail.com, 123)">basePageNavigation(nonrestrictedusesr@gmail.com, 123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="basePageNavigation(restricteduser@gmail.com, 345)">basePageNavigation(restricteduser@gmail.com, 345)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.validateLogo" hash-for-method="gitbranchTest">gitbranchTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -180,6 +185,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="gitbranchTest">
+                  </a> <!-- gitbranchTest -->
+                  <span class="method-name">gitbranchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="logoValidation">
                   </a> <!-- logoValidation -->
                   <span class="method-name">logoValidation</span>
@@ -195,18 +207,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="basePageNavigation(nonrestrictedusesr@gmail.com, 123)">
-                  </a> <!-- basePageNavigation(nonrestrictedusesr@gmail.com, 123) -->
-                  <span class="method-name">basePageNavigation</span>
-                  <span class="parameters">(nonrestrictedusesr@gmail.com, 123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="basePageNavigation(restricteduser@gmail.com, 345)">
                   </a> <!-- basePageNavigation(restricteduser@gmail.com, 345) -->
                   <span class="method-name">basePageNavigation</span>
                   <span class="parameters">(restricteduser@gmail.com, 345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="basePageNavigation(nonrestrictedusesr@gmail.com, 123)">
+                  </a> <!-- basePageNavigation(nonrestrictedusesr@gmail.com, 123) -->
+                  <span class="method-name">basePageNavigation</span>
+                  <span class="parameters">(nonrestrictedusesr@gmail.com, 123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,7 +241,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Nabeel\eclipse-workspace\E2EProject_nABEEL\testng.xml</span>
+            <span class="header-content">F:\GitDemo\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -297,32 +309,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageNavigation')
 data.setCell(0, 2, 'Academy.HomePage')
-data.setCell(0, 3, 5676);
+data.setCell(0, 3, 9447);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'basePageNavigation')
 data.setCell(1, 2, 'Academy.HomePage')
-data.setCell(1, 3, 2451);
+data.setCell(1, 3, 3018);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'logoValidation')
 data.setCell(2, 2, 'Academy.validateLogo')
-data.setCell(2, 3, 233);
+data.setCell(2, 3, 405);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'titleValidation')
 data.setCell(3, 2, 'Academy.validateTitle')
-data.setCell(3, 3, 75);
+data.setCell(3, 3, 209);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'headerValidation')
 data.setCell(4, 2, 'Academy.validateTitle')
-data.setCell(4, 3, 5);
+data.setCell(4, 3, 7);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'gitbranchTest')
+data.setCell(5, 2, 'Academy.validateLogo')
+data.setCell(5, 3, 3);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -355,6 +371,13 @@ return data;
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">Academy.HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initalize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateTitle</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initalize1</span>
@@ -363,13 +386,9 @@ return data;
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.HomePage</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initalize</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">basePageNavigation(nonrestrictedusesr@gmail.com, 123)</span>
-                <span class="method-start">7191 ms</span>
+                <span class="method-start">7567 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -378,40 +397,44 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">headerValidation</span>
-                <span class="method-start">10453 ms</span>
+                <span class="method-start">13117 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateLogo</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">gitbranchTest</span>
+                <span class="method-start">14084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">logoValidation</span>
-                <span class="method-start">11109 ms</span>
+                <span class="method-start">14093 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11348 ms</span>
+                <span class="method-start">14504 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateTitle</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">titleValidation</span>
-                <span class="method-start">11871 ms</span>
+                <span class="method-start">15257 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11947 ms</span>
+                <span class="method-start">15468 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">basePageNavigation(restricteduser@gmail.com, 345)</span>
-                <span class="method-start">12871 ms</span>
+                <span class="method-start">17018 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15325 ms</span>
+                <span class="method-start">20038 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

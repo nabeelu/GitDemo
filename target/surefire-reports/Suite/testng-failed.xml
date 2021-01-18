@@ -9,10 +9,21 @@
       <class name="Academy.validateTitle">
         <methods>
           <include name="initalize1"/>
-          <include name="titleValidation"/>
+          <include name="headerValidation"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Academy.validateTitle -->
     </classes>
   </test> <!-- ValidateTitle(failed) -->
+  <test thread-count="5" verbose="0" name="ValidateHomePage(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="initalize"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+    </classes>
+  </test> <!-- ValidateHomePage(failed) -->
 </suite> <!-- Failed suite [Suite] -->

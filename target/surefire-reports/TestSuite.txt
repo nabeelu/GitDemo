@@ -1,8 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.715 s <<< FAILURE! - in TestSuite
-Academy.validateTitle.titleValidation  Time elapsed: 5.29 s  <<< FAILURE!
-java.lang.AssertionError: expected [1234] but found [[[ChromeDriver: chrome on WINDOWS (27116e3f2b06a46d8bf315f6a49d110e)] -> xpath: //*[@class='text-center']/h2]]
-	at Academy.validateTitle.titleValidation(validateTitle.java:36)
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 29.613 s <<< FAILURE! - in TestSuite
+Academy.validateTitle.headerValidation  Time elapsed: 1.373 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.validateTitle.headerValidation(validateTitle.java:49)
+
+Academy.HomePage.basePageNavigation[nonrestrictedusesr@gmail.com, 123](1)  Time elapsed: 13.005 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"[value='Send Me Instruction']"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-L2FA2TH', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Nabeel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c838e7070a2fcaaed88eb6b7a4c4339a
+*** Element info: {Using=css selector, value=[value='Send Me Instruction']}
+	at Academy.HomePage.basePageNavigation(HomePage.java:49)
 

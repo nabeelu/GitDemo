@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ValidateTitle</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jan 16 15:20:01 IST 2021</td>
+<td>Started on:</td><td>Mon Jan 18 13:52:15 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12409 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13836 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,22 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Academy.validateTitle.titleValidation()'><b>titleValidation</b><br>Test class: Academy.validateTitle</td>
-<td><div><pre>java.lang.AssertionError: expected [1234] but found [[[ChromeDriver: chrome on WINDOWS (27116e3f2b06a46d8bf315f6a49d110e)] -&gt; xpath: //*[@class=&apos;text-center&apos;]/h2]]
-	at Academy.validateTitle.titleValidation(validateTitle.java:36)
+<td title='Academy.validateTitle.headerValidation()'><b>headerValidation</b><br>Test class: Academy.validateTitle</td>
+<td><div><pre>java.lang.NullPointerException
+	at Academy.validateTitle.headerValidation(validateTitle.java:49)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace800744012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace800744012'><pre>java.lang.AssertionError: expected [1234] but found [[[ChromeDriver: chrome on WINDOWS (27116e3f2b06a46d8bf315f6a49d110e)] -&gt; xpath: //*[@class=&apos;text-center&apos;]/h2]]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:617)
-	at Academy.validateTitle.titleValidation(validateTitle.java:36)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace518800219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace518800219'><pre>java.lang.NullPointerException
+	at Academy.validateTitle.headerValidation(validateTitle.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,7 +110,20 @@ function toggleAllBoxes() {
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 </pre></div></td>
-<td>4</td>
+<td>0</td>
+<td>Academy.validateTitle@5a45133e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Academy.validateTitle.titleValidation()'><b>titleValidation</b><br>Test class: Academy.validateTitle</td>
+<td></td>
+<td>0</td>
 <td>Academy.validateTitle@5a45133e</td></tr>
 </table><p>
 </body>

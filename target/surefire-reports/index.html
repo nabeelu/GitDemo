@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Nabeel\eclipse-workspace\E2EProject_nABEEL\testng.xml</span>
+                    <span>F:\GitDemo\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.validateTitle" hash-for-method="titleValidation">titleValidation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="basePageNavigation(nonrestrictedusesr@gmail.com, 123)">basePageNavigation(nonrestrictedusesr@gmail.com, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.validateTitle" hash-for-method="headerValidation">headerValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -118,17 +123,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="basePageNavigation(nonrestrictedusesr@gmail.com, 123)">basePageNavigation(nonrestrictedusesr@gmail.com, 123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="basePageNavigation(restricteduser@gmail.com, 345)">basePageNavigation(restricteduser@gmail.com, 345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.validateLogo" hash-for-method="gitbranchTest">gitbranchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.validateLogo" hash-for-method="logoValidation">logoValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.validateTitle" hash-for-method="titleValidation">titleValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -146,22 +156,68 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">Academy.validateTitle</span>
+              <span class="class-name">Academy.HomePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="titleValidation">
-                  </a> <!-- titleValidation -->
-                  <span class="method-name">titleValidation</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [1234] but found [[[ChromeDriver: chrome on WINDOWS (27116e3f2b06a46d8bf315f6a49d110e)] -&gt; xpath: //*[@class=&apos;text-center&apos;]/h2]]
-	at Academy.validateTitle.titleValidation(validateTitle.java:36)
+                  <a name="basePageNavigation(nonrestrictedusesr@gmail.com, 123)">
+                  </a> <!-- basePageNavigation(nonrestrictedusesr@gmail.com, 123) -->
+                  <span class="method-name">basePageNavigation</span>
+                  <span class="parameters">(nonrestrictedusesr@gmail.com, 123)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[value=&apos;Send Me Instruction&apos;]&quot;}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-L2FA2TH&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Nabeel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c838e7070a2fcaaed88eb6b7a4c4339a
+*** Element info: {Using=css selector, value=[value=&apos;Send Me Instruction&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at Academy.HomePage.basePageNavigation(HomePage.java:49)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 23 stack frames
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Academy.validateTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="headerValidation">
+                  </a> <!-- headerValidation -->
+                  <span class="method-name">headerValidation</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Academy.validateTitle.headerValidation(validateTitle.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -175,18 +231,25 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="basePageNavigation(nonrestrictedusesr@gmail.com, 123)">
-                  </a> <!-- basePageNavigation(nonrestrictedusesr@gmail.com, 123) -->
-                  <span class="method-name">basePageNavigation</span>
-                  <span class="parameters">(nonrestrictedusesr@gmail.com, 123)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="basePageNavigation(restricteduser@gmail.com, 345)">
                   </a> <!-- basePageNavigation(restricteduser@gmail.com, 345) -->
                   <span class="method-name">basePageNavigation</span>
                   <span class="parameters">(restricteduser@gmail.com, 345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Academy.validateTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation">
+                  </a> <!-- titleValidation -->
+                  <span class="method-name">titleValidation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,6 +262,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="gitbranchTest">
+                  </a> <!-- gitbranchTest -->
+                  <span class="method-name">gitbranchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="logoValidation">
                   </a> <!-- logoValidation -->
                   <span class="method-name">logoValidation</span>
@@ -209,7 +279,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Nabeel\eclipse-workspace\E2EProject_nABEEL\testng.xml</span>
+            <span class="header-content">F:\GitDemo\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -277,28 +347,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'basePageNavigation')
 data.setCell(0, 2, 'Academy.HomePage')
-data.setCell(0, 3, 6297);
+data.setCell(0, 3, 18929);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'titleValidation')
-data.setCell(1, 2, 'Academy.validateTitle')
-data.setCell(1, 3, 4780);
+data.setCell(1, 1, 'basePageNavigation')
+data.setCell(1, 2, 'Academy.HomePage')
+data.setCell(1, 3, 2160);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logoValidation')
-data.setCell(2, 2, 'Academy.validateLogo')
-data.setCell(2, 3, 4631);
+data.setCell(2, 1, 'titleValidation')
+data.setCell(2, 2, 'Academy.validateTitle')
+data.setCell(2, 3, 307);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'basePageNavigation')
-data.setCell(3, 2, 'Academy.HomePage')
-data.setCell(3, 3, 2158);
+data.setCell(3, 1, 'logoValidation')
+data.setCell(3, 2, 'Academy.validateLogo')
+data.setCell(3, 3, 222);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'headerValidation')
+data.setCell(4, 2, 'Academy.validateTitle')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'gitbranchTest')
+data.setCell(5, 2, 'Academy.validateLogo')
+data.setCell(5, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -331,6 +409,13 @@ return data;
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">Academy.validateLogo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initalize1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateTitle</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initalize1</span>
@@ -338,21 +423,12 @@ return data;
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Academy.validateLogo</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initalize1</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">logoValidation</span>
-                <span class="method-start">7030 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">Academy.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">basePageNavigation(nonrestrictedusesr@gmail.com, 123)</span>
-                <span class="method-start">7030 ms</span>
+                <span class="method-start">6990 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -360,33 +436,45 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">titleValidation</span>
-                <span class="method-start">7030 ms</span>
+                <span class="method-name">headerValidation</span>
+                <span class="method-start">10980 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateLogo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">gitbranchTest</span>
+                <span class="method-start">11848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoValidation</span>
+                <span class="method-start">11850 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11670 ms</span>
+                <span class="method-start">12076 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.validateTitle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">titleValidation</span>
+                <span class="method-start">13238 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12360 ms</span>
+                <span class="method-start">13546 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">basePageNavigation(restricteduser@gmail.com, 345)</span>
-                <span class="method-start">13328 ms</span>
+                <span class="method-start">26243 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15487 ms</span>
+                <span class="method-start">28404 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
