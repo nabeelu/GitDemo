@@ -20,6 +20,7 @@ import resources.base;
  
 public class HomePage extends base {
 	//testing Git hub
+	//made some more changes
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(HomePage.class.getName());
 			
