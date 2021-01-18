@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.613" tests="6" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="31.385" tests="6" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Nabeel\AppData\Local\Temp\surefire8798825845042693757\surefirebooter2670769389361050578.jar C:\Users\Nabeel\AppData\Local\Temp\surefire8798825845042693757 2021-01-18T13-52-13_892-jvmRun1 surefire3209025986786559541tmp surefire_07123362428006943010tmp"/>
+    <property name="sun.java.command" value="C:\Users\Nabeel\AppData\Local\Temp\surefire8719620849728969940\surefirebooter5234548830248359851.jar C:\Users\Nabeel\AppData\Local\Temp\surefire8719620849728969940 2021-01-18T13-58-52_729-jvmRun1 surefire733549429246522972tmp surefire_01669313386444097537tmp"/>
     <property name="surefire.test.class.path" value="F:\GitDemo\target\test-classes;F:\GitDemo\target\classes;C:\Users\Nabeel\.m2\repository\com\aventstack\extentreports\5.0.6\extentreports-5.0.6.jar;C:\Users\Nabeel\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Nabeel\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Nabeel\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Nabeel\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Nabeel\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Nabeel\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Nabeel\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.0\log4j-api-2.14.0.jar;C:\Users\Nabeel\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.0\log4j-core-2.14.0.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Nabeel\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Nabeel\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Nabeel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Nabeel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Nabeel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Nabeel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Nabeel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Nabeel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Nabeel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Nabeel\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Nabeel\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Nabeel\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Nabeel\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Nabeel\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Nabeel\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Nabeel\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Nabeel\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Nabeel\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Nabeel\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Nabeel\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Nabeel"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Nabeel\AppData\Local\Temp\surefire8798825845042693757\surefirebooter2670769389361050578.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nabeel\AppData\Local\Temp\surefire8719620849728969940\surefirebooter5234548830248359851.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,52 +61,52 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="gitbranchTest" classname="Academy.validateLogo" time="0.013">
+  <testcase name="gitbranchTest" classname="Academy.validateLogo" time="0.032">
     <system-out><![CDATA[testing git branch
 ]]></system-out>
-    <system-err><![CDATA[Starting ChSrtomaretDirnivger  C8h7.r0o.m4e2D80r.i8v8er  (8879e.20.34820a803.e8386 c(384964e2b358d0da133e306c233449b61348b255d4d1932092304d9-br1S3et8f2a5sr4/t9bi2ran9nch0g-h deadC-s/h4r28re0@of{ms#e/D1brr7ia6vne1rc }h8-7)h. 0e.a4o2d8n0s ./8p84 o2(8890r@et{ #312473678110}2a)3 e
-3o6Ocnn3l y4p6 o4lrbot5c da1dl01 39c0o128n3n4
-e9Ocbnt1l3yi 8ol2onc5sal4  9ac2orn9en0e cdtai-lorlneosfws e/abdrr.aen
- Pcallhleo-waheds.ee
-a Pldsesaes/ee4  2s8ee0h h@ttt{tp#ps1s:7:///6c/1h}cr)ohm reoodrmnive eprd.ocrhirrovtme iu4r1m..2cho9rro3mgi/u
-msO.enorlcgyu/ rselictuoyrciatyl-- cccoononsnisdnieerdacetitroinaost nifosor  nsasug rgfeeso triaol nlsso uowgn egkdee.espti
-nigPo lCnehsar soomene  Dksreieevpeeir n shga tfCeh.trop
-mse:Dr/iv/ecr hsarfoe.m
-edriCvherormC.eDcrhhirvreoromm eiwDuarmis.v oersrgt /awsraetscu ersdti tasryu-tccecoden ssssiufcduecerlasstlfiyou.lnls
- y.for
- suggestions on keeping ChromeDriver safe.
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on portS 1t93a90rti
+ngO CnhrolmeyDr iverl o8c7a.l0 c.o4n2n8e0c.t8iS8otnasr tairn eg(  8Ca9helrloomweedD.ri
+vPelre2a3s8e0 asee 3httep3s6:c//3c4hromed6r i4v8be75r.d.cd0h1.r34o02m2i8u3m40.9o.rb8g1/3se8c8u2r i(t5y84-c99oe2ns92i03ded8r0a-atri3eoefns3s 6/fbcor3ra 4sn6ug4cgbeh5s-tdihdoen1sa 3od0n 2sk/3e44e29pb8i01n@3g 8C{hr#2o1m54e7D9r62i1v9e}0r )dsa -foer.ne
+ fpso/rtb r4an3c7h20-h
+eOandlsy/ l4o2c8a0l@{ #c17o6nne1ct}ion)s a reo anll owpeodrt. 35
+P3l8e5ase
+ Onlsye e lhtotpcs:/a/chlrom edcriveor.nchrnomieum.corgt/seicuorityn-csonside raraet iaolnls ofwoerd. s
+uPglgeeasstiones  osn keeping Ceher ohmetDtrpisv:/er safe.
+/chromedrivCehrr.ocmheDrroimvieumr .woarsg s/tsaerctuerd istuycc-escsfounllsy.id
+erations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 18, 2021 1:52:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully.
+Jan 18, 2021 1:59:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jan 18, 2021 1:52:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 18, 2021 1:59:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jan 18, 2021 1:52:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 18, 2021 1:59:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="logoValidation" classname="Academy.validateLogo" time="0.208"/>
-  <testcase name="headerValidation" classname="Academy.validateTitle" time="1.373">
+  <testcase name="logoValidation" classname="Academy.validateLogo" time="0.263"/>
+  <testcase name="headerValidation" classname="Academy.validateTitle" time="1.871">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at Academy.validateTitle.headerValidation(validateTitle.java:49)
 ]]></failure>
   </testcase>
-  <testcase name="titleValidation" classname="Academy.validateTitle" time="0.34">
-    <system-out><![CDATA[13:52:29.261 [TestNG-tests-3] ERROR Academy.validateTitle - Title validation failed
+  <testcase name="titleValidation" classname="Academy.validateTitle" time="0.717">
+    <system-out><![CDATA[13:59:10.443 [TestNG-tests-3] ERROR Academy.validateTitle - Title validation failed
 ]]></system-out>
   </testcase>
-  <testcase name="basePageNavigation[nonrestrictedusesr@gmail.com, 123](1)" classname="Academy.HomePage" time="13.005">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[value=&apos;Send Me Instruction&apos;]&quot;}&#10;  (Session info: chrome=87.0.4280.141)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-L2FA2TH&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Nabeel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c838e7070a2fcaaed88eb6b7a4c4339a&#10;*** Element info: {Using=css selector, value=[value=&apos;Send Me Instruction&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="basePageNavigation[nonrestrictedusesr@gmail.com, 123](1)" classname="Academy.HomePage" time="12.946">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[value=&apos;Send Me Instruction&apos;]&quot;}&#10;  (Session info: chrome=87.0.4280.141)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-L2FA2TH&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Nabeel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d3daef824f21231cb52e0bf94289b493&#10;*** Element info: {Using=css selector, value=[value=&apos;Send Me Instruction&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":"[value='Send Me Instruction']"}
   (Session info: chrome=87.0.4280.141)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-L2FA2TH', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Nabeel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c838e7070a2fcaaed88eb6b7a4c4339a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Nabeel\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d3daef824f21231cb52e0bf94289b493
 *** Element info: {Using=css selector, value=[value='Send Me Instruction']}
 	at Academy.HomePage.basePageNavigation(HomePage.java:49)
 ]]></failure>
   </testcase>
-  <testcase name="basePageNavigation[restricteduser@gmail.com, 345](2)" classname="Academy.HomePage" time="2.16"/>
+  <testcase name="basePageNavigation[restricteduser@gmail.com, 345](2)" classname="Academy.HomePage" time="2.058"/>
 </testsuite>

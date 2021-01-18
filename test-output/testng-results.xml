@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20181" started-at="2021-01-18T13:49:10 IST" finished-at="2021-01-18T13:49:30 IST">
+  <suite name="Suite" duration-ms="17698" started-at="2021-01-18T13:58:21 IST" finished-at="2021-01-18T13:58:38 IST">
     <groups>
     </groups>
-    <test name="ValidateLogo" duration-ms="15379" started-at="2021-01-18T13:49:10 IST" finished-at="2021-01-18T13:49:26 IST">
+    <test name="ValidateLogo" duration-ms="9314" started-at="2021-01-18T13:58:21 IST" finished-at="2021-01-18T13:58:30 IST">
       <class name="Academy.validateLogo">
-        <test-method status="PASS" signature="initalize1()[pri:0, instance:Academy.validateLogo@644baf4a]" name="initalize1" is-config="true" duration-ms="14081" started-at="2021-01-18T13:49:10 IST" finished-at="2021-01-18T13:49:24 IST">
+        <test-method status="PASS" signature="initalize1()[pri:0, instance:Academy.validateLogo@644baf4a]" name="initalize1" is-config="true" duration-ms="9069" started-at="2021-01-18T13:58:21 IST" finished-at="2021-01-18T13:58:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalize1 -->
-        <test-method status="PASS" signature="gitbranchTest()[pri:0, instance:Academy.validateLogo@644baf4a]" name="gitbranchTest" duration-ms="3" started-at="2021-01-18T13:49:24 IST" finished-at="2021-01-18T13:49:24 IST">
+        <test-method status="PASS" signature="gitbranchTest()[pri:0, instance:Academy.validateLogo@644baf4a]" name="gitbranchTest" duration-ms="5" started-at="2021-01-18T13:58:30 IST" finished-at="2021-01-18T13:58:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gitbranchTest -->
-        <test-method status="PASS" signature="logoValidation()[pri:0, instance:Academy.validateLogo@644baf4a]" name="logoValidation" duration-ms="405" started-at="2021-01-18T13:49:24 IST" finished-at="2021-01-18T13:49:25 IST">
+        <test-method status="PASS" signature="logoValidation()[pri:0, instance:Academy.validateLogo@644baf4a]" name="logoValidation" duration-ms="105" started-at="2021-01-18T13:58:30 IST" finished-at="2021-01-18T13:58:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoValidation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateLogo@644baf4a]" name="tearDown" is-config="true" duration-ms="870" started-at="2021-01-18T13:49:25 IST" finished-at="2021-01-18T13:49:26 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateLogo@644baf4a]" name="tearDown" is-config="true" duration-ms="109" started-at="2021-01-18T13:58:30 IST" finished-at="2021-01-18T13:58:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.validateLogo -->
     </test> <!-- ValidateLogo -->
-    <test name="ValidateTitle" duration-ms="15634" started-at="2021-01-18T13:49:10 IST" finished-at="2021-01-18T13:49:26 IST">
+    <test name="ValidateTitle" duration-ms="12935" started-at="2021-01-18T13:58:21 IST" finished-at="2021-01-18T13:58:34 IST">
       <class name="Academy.validateTitle">
-        <test-method status="PASS" signature="initalize1()[pri:0, instance:Academy.validateTitle@548d708a]" name="initalize1" is-config="true" duration-ms="13114" started-at="2021-01-18T13:49:10 IST" finished-at="2021-01-18T13:49:23 IST">
+        <test-method status="PASS" signature="initalize1()[pri:0, instance:Academy.validateTitle@548d708a]" name="initalize1" is-config="true" duration-ms="9274" started-at="2021-01-18T13:58:21 IST" finished-at="2021-01-18T13:58:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalize1 -->
-        <test-method status="FAIL" signature="headerValidation()[pri:0, instance:Academy.validateTitle@548d708a]" name="headerValidation" duration-ms="7" started-at="2021-01-18T13:49:23 IST" finished-at="2021-01-18T13:49:23 IST">
+        <test-method status="FAIL" signature="headerValidation()[pri:0, instance:Academy.validateTitle@548d708a]" name="headerValidation" duration-ms="1" started-at="2021-01-18T13:58:30 IST" finished-at="2021-01-18T13:58:30 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -65,23 +65,23 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerValidation -->
-        <test-method status="PASS" signature="titleValidation()[pri:0, instance:Academy.validateTitle@548d708a]" name="titleValidation" duration-ms="209" started-at="2021-01-18T13:49:26 IST" finished-at="2021-01-18T13:49:26 IST">
+        <test-method status="PASS" signature="titleValidation()[pri:0, instance:Academy.validateTitle@548d708a]" name="titleValidation" duration-ms="172" started-at="2021-01-18T13:58:33 IST" finished-at="2021-01-18T13:58:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleValidation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateTitle@548d708a]" name="tearDown" is-config="true" duration-ms="161" started-at="2021-01-18T13:49:26 IST" finished-at="2021-01-18T13:49:26 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateTitle@548d708a]" name="tearDown" is-config="true" duration-ms="206" started-at="2021-01-18T13:58:33 IST" finished-at="2021-01-18T13:58:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.validateTitle -->
     </test> <!-- ValidateTitle -->
-    <test name="ValidateHomePage" duration-ms="20181" started-at="2021-01-18T13:49:10 IST" finished-at="2021-01-18T13:49:30 IST">
+    <test name="ValidateHomePage" duration-ms="17698" started-at="2021-01-18T13:58:21 IST" finished-at="2021-01-18T13:58:38 IST">
       <class name="Academy.HomePage">
-        <test-method status="PASS" signature="initalize()[pri:0, instance:Academy.HomePage@663c9e7a]" name="initalize" is-config="true" duration-ms="7540" started-at="2021-01-18T13:49:10 IST" finished-at="2021-01-18T13:49:18 IST">
+        <test-method status="PASS" signature="initalize()[pri:0, instance:Academy.HomePage@663c9e7a]" name="initalize" is-config="true" duration-ms="6783" started-at="2021-01-18T13:58:21 IST" finished-at="2021-01-18T13:58:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalize -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@663c9e7a]" name="basePageNavigation" duration-ms="9447" started-at="2021-01-18T13:49:18 IST" data-provider="getData" finished-at="2021-01-18T13:49:27 IST">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@663c9e7a]" name="basePageNavigation" duration-ms="7475" started-at="2021-01-18T13:58:27 IST" data-provider="getData" finished-at="2021-01-18T13:58:35 IST">
           <params>
             <param index="0">
               <value>
@@ -97,7 +97,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@663c9e7a]" name="basePageNavigation" duration-ms="3018" started-at="2021-01-18T13:49:27 IST" data-provider="getData" finished-at="2021-01-18T13:49:30 IST">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@663c9e7a]" name="basePageNavigation" duration-ms="3336" started-at="2021-01-18T13:58:35 IST" data-provider="getData" finished-at="2021-01-18T13:58:38 IST">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@663c9e7a]" name="tearDown" is-config="true" duration-ms="138" started-at="2021-01-18T13:49:30 IST" finished-at="2021-01-18T13:49:30 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@663c9e7a]" name="tearDown" is-config="true" duration-ms="77" started-at="2021-01-18T13:58:38 IST" finished-at="2021-01-18T13:58:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
